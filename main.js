@@ -7,9 +7,9 @@ console.log(toggleLightModeButton);
 function toggleLightMode (){
     document.body.classList.toggle('darkmode')
     if (document.body.classList.contains('darkmode')){
-        toggleLightModeButton.innerHTML='Välj ljust läge'
+        toggleLightModeButton.innerHTML='Välj mörkt läge'
     } else {
-        toggleLightModeButton.innerHTML ='Välj mörkt läge'
+        toggleLightModeButton.innerHTML ='Välj ljust läge'
     }
     
 }
