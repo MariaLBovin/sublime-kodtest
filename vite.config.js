@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/sr-api/',
+  base: '/sublime-kodtest/',
   define: {
     'process.env': {},
   },
